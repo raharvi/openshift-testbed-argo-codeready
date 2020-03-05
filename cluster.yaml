@@ -8,7 +8,6 @@ spec:
   server:
     cheDebug: 'false'
     cheFlavor: codeready
-    #cheHost: codeready-codeready.apps.ly-demo.openshiftaws.com
     cheLogLevel: INFO
     externalDevfileRegistry: false
     externalPluginRegistry: false
@@ -32,6 +31,8 @@ spec:
     identityProviderPostgresPassword: rquJDwo2fKBp
     identityProviderRealm: codeready
     identityProviderURL: 'http://keycloak-codeready.apps.ly-demo.openshiftaws.com'
+    # for use in workshops, uncomment and replace the <CLUSTER_NAME> and <DOMAIN_NAME> with the correct parameters
+    #identityProviderURL: 'http://keycloak-codeready.apps.<CLUSTER_NAME>.<DOMAIN_NAME>'
     openShiftoAuth: false
     updateAdminPassword: false
   storage:
