@@ -1,38 +1,50 @@
 metadata:
-  name: strimzi-demo-devspace
+  name: openshift-testbed-devspace
 projects:
   - name: openshift-testbed
     source:
       location: 'https://github.com/ably77/openshift-testbed'
       type: git
       branch: master
-  - name: iot-argocd
+  - name: spring-rest
     source:
-      location: 'https://github.com/ably77/iot-argocd'
+      location: 'https://github.com/ably77/spring-rest'
       type: git
-  - name: strimzi-demo-kafka
+  - name: vote-ui
     source:
-      location: 'https://github.com/ably77/strimzi-demo-kafka'
+      location: 'https://github.com/ably77/vote-ui'
       type: git
-  - name: strimzi-loadtest
+  - name: vote-api
     source:
-      location: 'https://github.com/ably77/strimzi-loadtest'
+      location: 'https://github.com/ably77/vote-api'
       type: git
-  - name: strimzi-demo-grafana
+  - name: openshift-testbed-argo-iotdemo
     source:
-      location: 'https://github.com/ably77/strimzi-demo-grafana'
+      location: 'https://github.com/ably77/openshift-testbed-argo-iotdemo'
       type: git
-  - name: strimzi-demo-prometheus
+  - name: openshift-testbed-argo-kafka
     source:
-      location: 'https://github.com/ably77/strimzi-demo-prometheus'
+      location: 'https://github.com/ably77/openshift-testbed-argo-kafka'
       type: git
-  - name: strimzi-demo-voteapp-pipeline
+  - name: openshift-testbed-argo-strimzi-loadtest
     source:
-      location: 'https://github.com/ably77/strimzi-demo-voteapp-pipeline'
+      location: 'https://github.com/ably77/openshift-testbed-argo-strimzi-loadtest'
       type: git
-  - name: strimzi-demo-voteapp
+  - name: openshift-testbed-argo-grafana
     source:
-      location: 'https://github.com/ably77/strimzi-demo-voteapp'
+      location: 'https://github.com/ably77/openshift-testbed-argo-grafana'
+      type: git
+  - name: openshift-testbed-argo-prometheus
+    source:
+      location: 'https://github.com/ably77/openshift-testbed-argo-prometheus'
+      type: git
+  - name: openshift-testbed-argo-voteapp-pipeline
+    source:
+      location: 'https://github.com/ably77/openshift-testbed-argo-voteapp-pipeline'
+      type: git
+  - name: openshift-testbed-argo-voteapp
+    source:
+      location: 'https://github.com/ably77/openshift-testbed-argo-voteapp'
       type: git
 components:
   - id: ms-vscode/go/latest
