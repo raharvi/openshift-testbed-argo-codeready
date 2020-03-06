@@ -30,9 +30,9 @@ spec:
     identityProviderPassword: admin
     identityProviderPostgresPassword: rquJDwo2fKBp
     identityProviderRealm: codeready
-    identityProviderURL: 'http://keycloak-codeready.apps.ly-demo.openshiftaws.com'
+    #identityProviderURL: 'http://keycloak-codeready.apps.ly-demo.openshiftaws.com'
     # for use in workshops, uncomment and replace the <CLUSTER_NAME> and <DOMAIN_NAME> with the correct parameters
-    #identityProviderURL: 'http://keycloak-codeready.apps.<CLUSTER_NAME>.<DOMAIN_NAME>'
+    identityProviderURL: 'http://keycloak-codeready.apps.pollux-dn.metheor.xyz'
     openShiftoAuth: false
     updateAdminPassword: false
   storage:
